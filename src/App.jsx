@@ -18,7 +18,7 @@ function App() {
           <div id="border" className="border">
               <div className="innerBorder">
               <Routes>
-                  <Route path="/start" element={<Start/>} />
+                  <Route path="/" element={<Start/>} />
                   <Route path="/spiel" element={<Game/>} />
                  <Route path="/ende" element={<End/>} />
               </Routes>
