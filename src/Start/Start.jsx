@@ -12,7 +12,8 @@ function Start() {
 
     return (
         <div className="flex items-center justify-center ml-2 mr-2 md:ml-20 md:mr-20 h-screen-custom2">
-            <div className="flex flex-col justify-start mb-20 text-center">
+
+            <div className=" text flex flex-col justify-start mb-20 text-center">
                 <div className="m-10">
                     <p>Santa&#39;s got a gift crisis! Help him grab those presents before the reindeer eat them!</p>
                     <br/>
@@ -21,7 +22,11 @@ function Start() {
                 <div className="">
                     <button className="start-button pl-4 pr-4 pt-2 pb-2" onClick={handleButtonClick}>Start Game</button>
                 </div>
+                <div className="">
+                    <img className="reindeer" src="public/assets/images/reindeer.png"/>
+                </div>
             </div>
+
         </div>
     );
 }
